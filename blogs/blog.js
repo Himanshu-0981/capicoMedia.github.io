@@ -44,6 +44,7 @@ let blogListData = [
     },
 ]
 
+// export default blogList;
 
 // function to sow blog list data 
 
@@ -60,13 +61,13 @@ let showBlogListData = () => {
                 ⏱️${time}
             </div>
             <div class="blog-title">
-               <a href="#">${title} </a>
+               <a href="../MainBlog/MainBlog.html">${title} </a>
             </div>
             <div class="blog-content">
                 <p>${content.slice(0,150) + "....."}</p>
             </div>
             <div class="blog-btn">
-                <a href="#">read more</a>
+                <a href="../MainBlog/MainBlog.html">read more</a>
             </div>
         </div>
             `

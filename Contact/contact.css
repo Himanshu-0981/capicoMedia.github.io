@@ -256,6 +256,14 @@ form input[type="submit"]:hover{
     border: 0.1px solid #e5e7eb;
 }
 
+/* ? CONTACT MEDIA QUERY */
+
+@media (max-width:600px){
+    form{
+        width: 70%;
+    }
+}
+
 /* ! FOOTER ! */
 
 footer{
